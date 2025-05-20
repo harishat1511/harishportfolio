@@ -168,6 +168,18 @@ h2 {
   text-shadow: 0 0 8px #ffb347;
 }
 
+#resume a {
+  color: whitesmoke;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#resume a:hover {
+  color: #fff;
+  text-shadow: 0 0 12px hsl(60, 1%, 78%), 0 0 24px hsl(40, 27%, 96%);
+}
+
 footer {
   text-align: center;
   padding: 1rem;
